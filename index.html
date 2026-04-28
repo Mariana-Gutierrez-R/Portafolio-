@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio | Mariana Gutierrez Restrepo</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css?v=2">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="70" tabindex="0">
+
+    <!-- Cursor Spotlight Effect -->
+    <div id="cursor-spotlight"></div>
+
+    <!-- Background Animado -->
+    <div class="bg-glow-container">
+        <div class="bg-glow bg-glow-1"></div>
+        <div class="bg-glow bg-glow-2"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top glass-nav">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#home" style="font-family: 'Outfit', sans-serif;">MGR<span
+                    class="text-accent">.</span></a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="bi bi-list fs-1"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav gap-3">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#home">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Sobre Mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Estudios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Proyectos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="min-vh-100 d-flex align-items-center position-relative overflow-hidden section-bg">
+        <div class="container position-relative z-1">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-7 text-center text-lg-start pt-5 mt-5 mt-lg-0 pt-lg-0">
+                    <span class="badge text-bg-accent rounded-pill px-3 py-2 mb-3 reveal">Ingeniería Informática</span>
+                    <h1 class="display-3 fw-bolder mb-3  reveal" style="transition-delay: 0.1s;">
+                        Hola, soy <br> <span class="text-gradient">Mariana Gutierrez</span>
+                    </h1>
+                    <p class="lead text-gray-400 mb-5 pe-lg-5 reveal" style="transition-delay: 0.2s;">
+                        Estudiante de Ingeniería Informática en la Universidad de La Salle. Apasionada por el desarrollo
+                        de software, la innovación tecnológica y la resolución de problemas mediante código limpio y
+                        eficiente.
+                    </p>
+                    <div class="d-flex gap-3 justify-content-center justify-content-lg-start flex-wrap reveal"
+                        style="transition-delay: 0.3s;">
+                        <a href="https://github.com/Mariana-Gutierrez-R" target="_blank"
+                            class="btn btn-accent btn-lg px-4 py-3 rounded-pill fw-semibold">
+                            <i class="bi bi-github ms-2"></i> Mi GitHub
+                        </a>
+                        <a href="#projects" class="btn btn-outline-light btn-lg px-4 py-3 rounded-pill fw-semibold">
+                            Ver Proyectos
+                        </a>
+                    </div>
+                </div>
+                <!-- Profile Image -->
+                <div class="col-lg-5 d-none d-lg-flex justify-content-center mt-5 mt-lg-0 reveal"
+                    style="transition-delay: 0.4s;">
+                    <div class="profile-img-container position-relative">
+                        <img src="img/WhatsApp Image 2026-04-27 at 11.39.28 AM (1).jpeg" alt="Mariana Gutierrez"
+                            class="img-fluid rounded-4 shadow-lg object-fit-cover position-relative z-1"
+                            style="width: 380px; height: 480px; filter: contrast(1.05) brightness(0.9);">
+
+                        <div class="floating-badge glass-card p-3 rounded-3 d-flex align-items-center gap-3 z-2">
+                            <i class="bi bi-code-slash fs-2 text-accent"></i>
+                            <div class="text-start">
+                                <h6 class="mb-0 fw-bold ">Desarrollo</h6>
+                                <small class="text-gray-400">Software & Apps</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About & Education -->
+    <section id="about" class="py-5 section-bg-alt">
+        <div class="container py-5">
+            <div class="row gx-5 align-items-center">
+                <!-- About Description -->
+                <div class="col-lg-6 mb-5 mb-lg-0 reveal">
+                    <div class="glass-card p-5 rounded-5 h-100 position-relative overflow-hidden">
+                        <h2 class="fw-bold mb-4 ">Sobre Mí</h2>
+                        <p class="text-gray-300 fs-6 mb-4 lh-lg">
+                            Soy <strong>Mariana Gutierrez Restrepo</strong>, una joven de 21 años enfocada en el mundo
+                            de la tecnología.<br><br>
+                            Cuento con un nivel de <strong>inglés B2</strong>, reforzado por mis 6 meses de experiencia
+                            en Concentrix brindando atención al cliente bilingüe. Esta etapa potenció enormemente mi
+                            capacidad de comunicación y empatía. <br><br>
+                            Me caracterizo por ser una persona proactiva, orientada al trabajo en equipo y siempre
+                            dispuesta a aprender nuevas tecnologías para crear soluciones que aporten valor.
+                        </p>
+                        <h3 class="h6 fw-bold  mt-4 text-uppercase tracking-wider text-accent">Áreas de Enfoque</h3>
+                        <ul class="list-unstyled mt-3 d-flex flex-wrap gap-2">
+                            <li><span class="badge glass-badge fs-6 py-2 px-3 fw-normal">Desarrollo de Software</span>
+                            </li>
+                            <li><span class="badge glass-badge fs-6 py-2 px-3 fw-normal">Desarrollo Móvil</span></li>
+                            <li><span class="badge glass-badge fs-6 py-2 px-3 fw-normal">Bases de Datos</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Education Timeline -->
+                <div class="col-lg-6 reveal" id="education" style="transition-delay: 0.2s;">
+                    <h2 class="fw-bold mb-5 ps-lg-4 ">Trayectoria Académica</h2>
+                    <div class="timeline ps-lg-4 border-start border-accent border-2 ms-3 ms-lg-0 position-relative">
+
+                        <div class="timeline-item position-relative pb-5 ps-4">
+                            <span
+                                class="timeline-dot position-absolute rounded-circle translate-middle-x top-0 start-0"></span>
+                            <div class="glass-card p-4 rounded-4 transition-hover">
+                                <h4 class="fw-bold  h5">Ingeniería Informática</h4>
+                                <h5 class="text-accent h6 mb-3">Universidad de La Salle</h5>
+                                <p class="text-gray-400 mb-0 fs-6">Estudiante activa. Formación integral en ciencias de
+                                    la computación, desarrollo de software, estructuración de bases de datos y
+                                    algoritmos complejos.</p>
+                                <span class="badge glass-badge mt-3 px-3 py-2 text-accent">En curso</span>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item position-relative ps-4">
+                            <span class="timeline-dot position-absolute rounded-circle translate-middle-x top-0 start-0"
+                                style="background: var(--text-secondary) !important; box-shadow: none;"></span>
+                            <div class="glass-card p-4 rounded-4 transition-hover">
+                                <h4 class="fw-bold  h5">Bachiller Académico</h4>
+                                <h5 class="text-gray-400 h6 mb-3">Colegio de La Salle en Bello</h5>
+                                <p class="text-gray-500 mb-0 fs-6">Formación base y educación académica integral.</p>
+                                <span class="badge glass-badge mt-3 px-3 py-2 text-gray-400">Graduada</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-5 section-bg">
+        <div class="container py-5">
+            <div class="text-center mb-5 reveal">
+                <span class="text-accent fw-bold text-uppercase tracking-wider">Arsenal Tecnológico</span>
+                <h2 class="display-6 fw-bold mt-2 ">Habilidades & Herramientas</h2>
+            </div>
+
+            <div class="row g-4 mt-2 justify-content-center">
+                <!-- Python -->
+                <div class="col-6 col-md-3 col-lg-2 reveal" style="transition-delay: 0.1s;">
+                    <div class="skill-card glass-card p-4 rounded-4 text-center h-100 transition-hover">
+                        <i class="bi bi-filetype-py fs-1 text-python mb-3 d-block"></i>
+                        <h5 class="fw-bold fs-6 ">Python</h5>
+                    </div>
+                </div>
+                <!-- HTML -->
+                <div class="col-6 col-md-3 col-lg-2 reveal" style="transition-delay: 0.2s;">
+                    <div class="skill-card glass-card p-4 rounded-4 text-center h-100 transition-hover">
+                        <i class="bi bi-filetype-html fs-1 text-html mb-3 d-block"></i>
+                        <h5 class="fw-bold fs-6 ">HTML5</h5>
+                    </div>
+                </div>
+                <!-- CSS -->
+                <div class="col-6 col-md-3 col-lg-2 reveal" style="transition-delay: 0.3s;">
+                    <div class="skill-card glass-card p-4 rounded-4 text-center h-100 transition-hover">
+                        <i class="bi bi-filetype-css fs-1 text-css mb-3 d-block"></i>
+                        <h5 class="fw-bold fs-6 ">CSS3</h5>
+                    </div>
+                </div>
+                <!-- JavaScript -->
+                <div class="col-6 col-md-3 col-lg-2 reveal" style="transition-delay: 0.4s;">
+                    <div class="skill-card glass-card p-4 rounded-4 text-center h-100 transition-hover">
+                        <i class="bi bi-filetype-js fs-1 text-js mb-3 d-block"></i>
+                        <h5 class="fw-bold fs-6 ">JavaScript</h5>
+                    </div>
+                </div>
+                <!-- Flutter -->
+                <div class="col-6 col-md-3 col-lg-2 reveal" style="transition-delay: 0.5s;">
+                    <div class="skill-card glass-card p-4 rounded-4 text-center h-100 transition-hover">
+                        <i class="bi bi-phone fs-1 text-flutter mb-3 d-block"></i>
+                        <h5 class="fw-bold fs-6 ">Flutter</h5>
+                    </div>
+                </div>
+                <!-- SQL -->
+                <div class="col-6 col-md-3 col-lg-2 reveal" style="transition-delay: 0.6s;">
+                    <div class="skill-card glass-card p-4 rounded-4 text-center h-100 transition-hover">
+                        <i class="bi bi-database fs-1 text-sql mb-3 d-block"></i>
+                        <h5 class="fw-bold fs-6 ">SQL</h5>
+                    </div>
+                </div>
+                <!-- Bootstrap -->
+                <div class="col-6 col-md-3 col-lg-2 reveal" style="transition-delay: 0.1s;">
+                    <div class="skill-card glass-card p-4 rounded-4 text-center h-100 transition-hover">
+                        <i class="bi bi-bootstrap fs-1 text-bootstrap mb-3 d-block"></i>
+                        <h5 class="fw-bold fs-6 ">Bootstrap</h5>
+                    </div>
+                </div>
+                <!-- Git -->
+                <div class="col-6 col-md-3 col-lg-2 reveal" style="transition-delay: 0.2s;">
+                    <div class="skill-card glass-card p-4 rounded-4 text-center h-100 transition-hover">
+                        <i class="bi bi-git fs-1 text-git mb-3 d-block"></i>
+                        <h5 class="fw-bold fs-6 ">Git</h5>
+                    </div>
+                </div>
+                <!-- GitHub -->
+                <div class="col-6 col-md-3 col-lg-2 reveal" style="transition-delay: 0.3s;">
+                    <div class="skill-card glass-card p-4 rounded-4 text-center h-100 transition-hover">
+                        <i class="bi bi-github fs-1 text-github mb-3 d-block"></i>
+                        <h5 class="fw-bold fs-6 ">GitHub</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5 section-bg-alt">
+        <div class="container py-5">
+            <div class="row align-items-end mb-5 reveal">
+                <div class="col-md-8">
+                    <span class="text-accent fw-bold text-uppercase tracking-wider">Mi Trabajo Práctico</span>
+                    <h2 class="display-6 fw-bold mt-2 ">Proyectos Destacados</h2>
+                </div>
+            </div>
+
+            <div class="row justify-content-center g-4">
+                <!-- Project Ruleta -->
+                <div class="col-md-6 col-lg-5 reveal">
+                    <div class="card project-card border-0 rounded-4 overflow-hidden h-100 glass-card">
+                        <div class="project-img-wrapper overflow-hidden position-relative"
+                            style="height: 250px; display: flex; align-items: center; justify-content: center;">
+                            <div class="transition-transform d-flex flex-column align-items-center">
+                                <i class="bi bi-phone text-accent"
+                                    style="font-size: 5rem; filter: drop-shadow(0 0 15px rgba(16, 185, 129, 0.4));"></i>
+                                <h4 class=" mt-2 fw-bold" style="font-family: 'Outfit', sans-serif;">Ruleta App</h4>
+                            </div>
+                            <div class="overlay position-absolute top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center bg-dark bg-opacity-75 transition-opacity opacity-0"
+                                style="backdrop-filter: blur(5px);">
+                                <a href="#"
+                                    class="btn btn-accent rounded-circle p-3 d-flex align-items-center justify-content-center"
+                                    style="width: 60px; height: 60px;">
+                                    <i class="bi bi-code-slash fs-4 text-dark"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-body p-4 d-flex flex-column">
+                            <div class="d-flex gap-2 mb-3 flex-wrap">
+                                <span class="badge glass-badge text-accent">Desarrollo Móvil</span>
+                                <span class="badge glass-badge text-gray-300">Interactividad</span>
+                            </div>
+                            <h4 class="card-title fw-bold  mb-3">Aplicación Ruleta</h4>
+                            <p class="card-text text-gray-400 fs-6 flex-grow-1">Aplicación móvil interactiva basada en
+                                el clásico juego de la ruleta. Desarrollada como proyecto práctico enfocado en la lógica
+                                de usuario y una interfaz visualmente estimulante.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-5 border-top section-bg" style="border-color: var(--glass-border) !important;">
+        <div class="container text-center reveal">
+            <h3 class="fw-bold mb-4 " style="font-family: 'Outfit', sans-serif;">MGR<span class="text-accent">.</span>
+            </h3>
+            <div class="d-flex justify-content-center gap-4 mb-4">
+                <a href="https://github.com/Mariana-Gutierrez-R" target="_blank" class="social-link"><i
+                        class="bi bi-github fs-5"></i></a>
+                <a href="#" class="social-link"><i class="bi bi-linkedin fs-5"></i></a>
+                <a href="mailto:mgutierrez@unilasallista.edu.co" class="social-link"><i
+                        class="bi bi-envelope fs-5"></i></a>
+            </div>
+            <p class="text-gray-500 mb-0">
+                &copy; <span id="year"></span> Mariana Gutierrez Restrepo.<br>
+                <small class="text-gray-600">Universidad de La Salle - Ingeniería Informática</small>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Bundle JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom Scripts -->
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // Navbar Scroll Effect
+        window.addEventListener('scroll', function () {
+            if (window.scrollY > 50) {
+                document.querySelector('.navbar').classList.add('scrolled');
+            } else {
+                document.querySelector('.navbar').classList.remove('scrolled');
+            }
+        });
+
+        // Spotlight Cursor Effect
+        const spotlight = document.getElementById('cursor-spotlight');
+
+        document.addEventListener('mousemove', (e) => {
+            const x = e.clientX;
+            const y = e.clientY;
+
+            spotlight.style.left = x + 'px';
+            spotlight.style.top = y + 'px';
+        });
+
+        // Hide spotlight when mouse leaves the window
+        document.addEventListener('mouseleave', () => {
+            spotlight.style.opacity = '0';
+        });
+        document.addEventListener('mouseenter', () => {
+            spotlight.style.opacity = '1';
+        });
+
+        // Scroll Reveal Animations using Intersection Observer
+        const revealElements = document.querySelectorAll('.reveal');
+
+        const revealOptions = {
+            threshold: 0.15,
+            rootMargin: "0px 0px -50px 0px"
+        };
+
+        const revealOnScroll = new IntersectionObserver(function (entries, observer) {
+            entries.forEach(entry => {
+                if (!entry.isIntersecting) {
+                    return;
+                } else {
+                    entry.target.classList.add('active');
+                    // Optional: stop observing once revealed
+                    // observer.unobserve(entry.target);
+                }
+            });
+        }, revealOptions);
+
+        revealElements.forEach(el => {
+            revealOnScroll.observe(el);
+        });
+
+        // Initial trigger for elements already in viewport
+        setTimeout(() => {
+            revealElements.forEach(el => {
+                const rect = el.getBoundingClientRect();
+                if (rect.top < window.innerHeight) {
+                    el.classList.add('active');
+                }
+            });
+        }, 100);
+    </script>
+</body>
+
+</html>
