@@ -21,7 +21,7 @@ Este repositorio contiene mi portafolio personal, diseñado y desarrollado desde
 
 ## ✨ Características Principales
 
-*   **Diseño Premium (Modo Claro):** Interfaz limpia y moderna basada en una paleta de colores claros con acentos verde esmeralda y degradados, implementando efectos visuales avanzados como *Glassmorphism*.
+*   **Diseño Premium (Modo Oscuro):** Interfaz inmersiva y moderna basada en una paleta de colores oscuros profundos con acentos verde esmeralda y neón, implementando efectos visuales avanzados como *Glassmorphism*.
 *   **Interactividad y Animaciones:**
     *   Efecto interactivo *Spotlight* en el cursor con tonalidades verdes.
     *   Animaciones *Scroll Reveal* (Intersection Observer) para una carga de contenido progresiva y elegante.
